@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1jjpjgdzhx5l2y2wyi767zvjvwsrgbozaopoayla",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "eyeoncloud",
+    "Region": "China",
+    "Industry": "Web3 / Crypto",
+    "Website": "江西云眼视界科技股份有限公司- (eyeoncloud.cn)",
+    "Social Media": "None",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Jiangxi CloudEye Vision Technology Co., Ltd. was established in 2017 as a high-tech enterprise dedicated to providing innovative products, solutions, and business models for urban digital transformation, striving to become a leading domestic provider of digital city data intelligence products and operation services. The company integrates technologies such as the Internet of Things (IoT), artificial intelligence (AI), cloud computing, and big data, and has pioneered the launch of its \"One Foundation, Two Wings\" product system domestically.\r\n\r\nThe \"One Foundation\" refers to the City Video Data Platform, which possesses capabilities for the access, transmission, storage, AI processing, and big data analysis of IoT data centered around video. The \"Two Wings\" encompass:\r\n\r\n1. One wing focuses on urban macro-governance, offering cost-effective AIoT products and services for domains including public safety, comprehensive governance, environmental protection, and water conservancy in cities. These offerings include management of key individuals, event early warning systems, and environmental monitoring solutions.\r\n2. The other wing is oriented towards urban grassroots governance, delivering high-quality audiovisual collaboration services for areas such as community management, beautiful countryside initiatives, grassroots mediation, and convenient, people-oriented services.\r\n\r\nCurrently, the company employs over 100 R&D personnel. Research and development centers have been established in Nanchang, Wuhan, and Shenzhen, with technical staff accounting for more than 70% of the workforce. Core products have achieved coverage across all 11 prefecture-level cities and over 80 counties in Jiangxi Province, with successful implementations also in Anhui, Hainan, and Guangdong provinces.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "We are preparing to store some of our own information and user data. Including but not limited to current company file archives, promotional materials, and surveillance videos of some important clients (public areas), etcxxxxxxxxxx These are private corporate datasets owned by We are preparing to store some of our own information and user data. Including but not limited to current company file archives, promotional materials, and surveillance videos of some important clients (public areas), etc",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We're going to use the `go-mc-sdk` to prepare the datasets. https://github.com/FogMeta/go-mc-sdk",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.bilibili.com/video/BV1fe4y1M7Cx/?spm_id_from=333.1350.jump_directly&vd_source=584ff578ab0e74e76db484f5eec95890",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Others",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f010088\r\nf02301\r\nf08399\r\nf02401\r\nf0187709\r\nf01163272\r\nf01402814\r\nf01072221\r\nf0240185\r\nf0143858\r\nf01390330\r\nf01225882\r\nf0717969\r\nf03223\r\nf01395673\r\nf01786736\r\nf0836160\r\nf032824\r\nf01443744\r\nf01871352\r\nf01907556\r\nf01946551\r\nf02012951\r\nf01970630\r\nf03044743\r\nf03044744\r\nf02199203\r\nf02760664",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "32GB",
+    "Replicas": 4,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-04-09 07:29:02.715972420 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1jjpjgdzhx5l2y2wyi767zvjvwsrgbozaopoayla",
+    "Multisig Address": "true"
+  },
+  "Allocation Requests": []
+}
