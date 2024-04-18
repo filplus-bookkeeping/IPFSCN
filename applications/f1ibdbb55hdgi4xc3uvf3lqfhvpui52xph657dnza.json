@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1ibdbb55hdgi4xc3uvf3lqfhvpui52xph657dnza",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "Commoncrawl",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://commoncrawl.org/",
+    "Social Media": "https://commoncrawl.org/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "FileTech-Commoncrawl",
+    "Brief history of your project and organization": "FileTech focuses on providing excellent data storage solutions. We have a passionate and knowledgeable team with extensive experience and expertise in the field of data storage. Whether it's data storage, data management, data recovery, or data center design and construction, we possess abundant technical capabilities and solutions.\r\n\r\nAt FileTech, we understand the importance of data in modern businesses. We not only offer high-performance data storage devices and solutions, but also provide comprehensive data management tools to help clients efficiently organize, classify, and protect their data assets.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone.Primary training corpus in every LLM.82% of raw tokens used to train GPT-3.Free and open corpus since 2007.Cited in over 8000 research papers.3–5 billion new pages added each month.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "CC-MAIN-2023-MAR-MAY-OCT\r\nCC-MAIN-2022-23-SEP-NOV-JAN (2204)\r\nCC-MAIN-2022-MAY-JUN-AUG (2204)\r\nCC-MAIN-2021-22-OCT-NOV-JAN (2204)\r\nCC-MAIN-2021-JUN-JUL-SEP (2204)\r\nCC-MAIN-2021-FEB-APR-MAY (2204)\r\nCC-MAIN-2020-21-OCT-NOV-JAN\r\nCC-MAIN-2020-JUL-AUG-SEP\r\nCC-MAIN-2020-FEB-MAR-MAY\r\nCC-MAIN-2019-20-NOV-DEC-JAN\r\nCC-MAIN-2019-AUG-SEP-OCT\r\nCC-MAIN-2019-MAY-JUN-JUL\r\nCC-MAIN-2019-FEB-MAR-APR\r\nCC-MAIN-2018-19-NOV-DEC-JAN\r\nCC-MAIN-2018-AUG-SEP-OCT\r\nCC-MAIN-2018-MAY-JUN-JUL\r\nCC-MAIN-2018-FEB-MAR-APR\r\nCC-MAIN-2018-JAN\r\nCC-MAIN-2017-18-NOV-DEC-JAN\r\nCC-MAIN-2017-AUG-SEP-OCT\r\nCC-MAIN-2017-MAY-JUN-JUL\r\nCC-MAIN-2017-FEB-MAR-APR-HOSTGRAPH",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02984282, HeNan-ZhengZhou\r\nf02942808, GuangDong-ShenZhen\r\nf02894875, JiangXi-FuZhou\r\nf02370792, GuangDong-DongGuan\r\nf01025366, ShanDong-QingDao\r\nf02940074, JiangXi-FuZhou\r\nf02951064, ZheJiang-JinHua\r\nf0122215, ShanDong-QingDao\r\nf0427989, ShanDong-QingDao",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15",
+    "Single Size Dataset": "1.5",
+    "Replicas": 10,
+    "Weekly Allocation": "300"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-04-02 02:09:00.975784894 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ibdbb55hdgi4xc3uvf3lqfhvpui52xph657dnza",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
