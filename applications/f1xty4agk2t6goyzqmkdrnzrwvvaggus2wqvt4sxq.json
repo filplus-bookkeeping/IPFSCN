@@ -35,11 +35,11 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-09-13 08:18:44.024182766 UTC",
     "Validated By": "ipfscn",
     "Active": true,
-    "Updated At": "2024-09-13 08:18:44.024188136 UTC",
+    "Updated At": "2024-09-13 08:21:28.450494489 UTC",
     "Active Request ID": "915c24d1-da3d-4166-bb0c-473f52e4e92e",
     "On Chain Address": "f1xty4agk2t6goyzqmkdrnzrwvvaggus2wqvt4sxq",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-09-13 08:18:44.024190821 UTC",
       "Updated At": "2024-09-13 08:18:44.024192493 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "256TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "ipfscn",
+          "Signing Address": "f1rjnxs24ymqlez3cjgzeniwcnhhj4gohmip5gp4q",
+          "Created At": "2024-09-13 08:21:25.609000000 UTC",
+          "Message CID": "bafy2bzacedxmb35nm45bqa5hv72o34yjuh4v5gm45bm3als4f7yg53dhrxh2a"
+        }
+      ]
     }
   ]
 }
