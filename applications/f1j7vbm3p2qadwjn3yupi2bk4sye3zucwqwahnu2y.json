@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1j7vbm3p2qadwjn3yupi2bk4sye3zucwqwahnu2y",
+  "Issue Number": "31",
+  "Client": {
+    "Name": "Smithsonian Institution",
+    "Region": "United States",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://www.si.edu/visit",
+    "Social Media": "https://www.si.edu/visit",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Smithsonian’s mission is the \"increase and diffusion of knowledge\" and has been collecting since 1846. The Smithsonian, through its efforts to digitize its multidisciplinary collections, has created millions of digital assets and related metadata describing the collection objects. On February 25th, 2020, the Smithsonian released over 2.8 million CC0 interdisciplinary 2-D and 3-D images, related metadata, and additionally, research data from researches across the Smithsonian. The 2.8 million \"open access\" collections are a subset of the Smithsonian’s 155 million objects, 2.1 million library volumes and 156,000 cubic feet of archival collections held in 19 museums, 9 research centers, libraries, archives and the National Zoo. Digitization of collections is ongoing.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Smithsonian’s mission is the \"increase and diffusion of knowledge\" and has been collecting since 1846. The Smithsonian, through its efforts to digitize its multidisciplinary collections, has created millions of digital assets and related metadata describing the collection objects. On February 25th, 2020, the Smithsonian released over 2.8 million CC0 interdisciplinary 2-D and 3-D images, related metadata, and additionally, research data from researches across the Smithsonian. The 2.8 million \"open access\" collections are a subset of the Smithsonian’s 155 million objects, 2.1 million library volumes and 156,000 cubic feet of archival collections held in 19 museums, 9 research centers, libraries, archives and the National Zoo. Digitization of collections is ongoing.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "After we download data from the Internet, the data is cut into disks through Singularity, and then the hard disk is mailed to the SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://smithsonian-open-access/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02852273 London\r\nf02984331 Singapore\r\nf02883857 Singapore\r\nf02973061 Russia\r\nf02889193 Vietnam",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-18 12:48:07.452039987 UTC",
+    "Validated By": "ipfscn",
+    "Active": true,
+    "Updated At": "2024-11-18 12:50:37.497030237 UTC",
+    "Active Request ID": "af379963-ab04-416b-bee4-8cfb009f7c18",
+    "On Chain Address": "f1j7vbm3p2qadwjn3yupi2bk4sye3zucwqwahnu2y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "af379963-ab04-416b-bee4-8cfb009f7c18",
+      "Request Type": "First",
+      "Created At": "2024-11-18 12:48:07.452046254 UTC",
+      "Updated At": "2024-11-18 12:48:07.452047260 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "ipfscn",
+          "Signing Address": "f1rjnxs24ymqlez3cjgzeniwcnhhj4gohmip5gp4q",
+          "Created At": "2024-11-18 12:50:35.116000000 UTC",
+          "Message CID": "bafy2bzacedjhw3lexapy4lujchhqm53o2zera7wvawbwxeskpg6wc2rqhhck2"
+        }
+      ]
+    }
+  ]
+}
