@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1vw27hcqodwml3jztauzxgvuxtksjicu2rqkb6uy",
+  "Issue Number": "33",
+  "Client": {
+    "Name": "Radio telescope",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://data.nrao.edu/portal/#/",
+    "Social Media": "https://data.nrao.edu/portal/#/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "I am only an individual, I have developed data processing software. I have worked for a large web3 company and have very rich processing experience. We have started downloading some data, thank you.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Founded in 1956, NRAO provides the most advanced radio telescope facilities and information to the international scientific community. Currently, https://data.nrao.edu/portal/#/ has stored 4.3PB of data.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "We counted the data on this website, a total of 500,800 pieces of information, with a total capacity of 4.2P。\r\n\r\nhttps://docs.google.com/spreadsheets/d/1F26TunJBid_6SqMYOQscSpm3793y4xYu/edit?usp=share_link&ouid=109823390606932719085&rtpof=true&sd=true",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03228820  KR\r\nf03157883  SZ\r\nf02826588  SZ\r\nf02826007  SG\r\nf01082888  HK\r\nf03081958  China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-11-18 07:45:41.058896065 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1vw27hcqodwml3jztauzxgvuxtksjicu2rqkb6uy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
