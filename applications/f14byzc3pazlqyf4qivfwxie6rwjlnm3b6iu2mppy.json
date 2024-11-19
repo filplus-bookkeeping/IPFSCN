@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f14byzc3pazlqyf4qivfwxie6rwjlnm3b6iu2mppy",
+  "Issue Number": "35",
+  "Client": {
+    "Name": "National Library of Medicine",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.nlm.nih.gov/portals/healthcare.html",
+    "Social Media": "https://www.facebook.com/nationallibraryofmedicine",
+    "Social Media Type": "Facebook",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The National Library of Medicine (NLM) is a part of the National Institutes of Health in the United States. It is the world's largest biomedical library and provides access to a wide range of medical resources and information. The NLM's website, https://www.nlm.nih.gov/, offers a variety of online resources including medical literature, databases, and research tools for healthcare professionals, researchers, and the general public.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data available on NLM mainly includes medical literature, biomedical databases, genomic data, medical imaging, and other information. We hope that the data stored on Filecoin includes medical literature and research materials, biomedical databases, and genomic data. These data are of great significance to medical research and practice, and by storing them on Filecoin, more secure, reliable, and decentralized data storage and sharing can be achieved.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We have developed our own website data download tool and collected it. And send data to SP according to their needs, including sending hard drives, network transmission.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://sra-pub-sars-cov2/\r\naws s3 ls --no-sign-request s3://sra-pub-sars-cov2-metadata-us-east-1/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03228820 korea\r\nf03157883 China\r\nf01082888 HK\r\nf03081958 China\r\nf02826588 China\r\nf02827996 China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-19 14:45:21.199940954 UTC",
+    "Validated By": "ipfscn",
+    "Active": true,
+    "Updated At": "2024-11-19 14:47:03.522972981 UTC",
+    "Active Request ID": "52326fd6-8e0a-40f3-8a16-1475ff5da2f4",
+    "On Chain Address": "f14byzc3pazlqyf4qivfwxie6rwjlnm3b6iu2mppy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "52326fd6-8e0a-40f3-8a16-1475ff5da2f4",
+      "Request Type": "First",
+      "Created At": "2024-11-19 14:45:21.199947704 UTC",
+      "Updated At": "2024-11-19 14:45:21.199948999 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "ipfscn",
+          "Signing Address": "f1rjnxs24ymqlez3cjgzeniwcnhhj4gohmip5gp4q",
+          "Created At": "2024-11-19 14:47:01.222000000 UTC",
+          "Message CID": "bafy2bzacecvsrmgs5sjhzmymtkslnhakyc2pz47lrmvoou4qlae66dveq7b26"
+        }
+      ]
+    }
+  ]
+}
