@@ -16,14 +16,14 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Web Elevation Layers Published\nPhase3 Ortho Imagery Services Online\nPhase3 Ortho Imagery Download Availability",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "The bandwidth of our computer room is very large. We download data directly from the website and then process and cut the data.\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://kygeonet.maps.arcgis.com/home/item.html?id=ea589936f91843cf96969f023dfd7bf7\nhttps://kyraster.ky.gov/arcgis/rest/services/ImageServices/Ky_KYAPED_Phase3_3IN/ImageServer\nhttps://kygeonet.maps.arcgis.com/apps/mapviewer/index.html?webmap=99365141ad7d48eeb10069c2952eaaed",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe, Greater China",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives, HTTP or FTP server",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\nf02887063 United States\nf02927642 Vietnam\nf02953218 Russia",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\nf02887063 United States\nf02927642 Vietnam\nf02953218 Russia\nf01531188 HK\nf03241413 ShenZhen\nf03238633 SG\nf03241579 ShenZhen",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "a98b87c6-09eb-4265-92f3-f7b1bc700f44",
     "On Chain Address": "f1ppsb4ztmossudm66fr7u3svlxn3reqboedrfisy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
