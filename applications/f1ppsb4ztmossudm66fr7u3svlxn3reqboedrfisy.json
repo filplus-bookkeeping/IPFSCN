@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe, Greater China",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives, HTTP or FTP server",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\nf02887063 United States\nf02927642 Vietnam\nf02953218 Russia\nf01531188 HK\nf03241413 ShenZhen\nf03238633 SG\nf03241579 ShenZhen",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\nf02887063 United States\nf02927642 Vietnam\nf02953218 Russia\nf01531188 HK\nf03378086 HK\nf03241413 ShenZhen\nf03238633 SG\nf03241579 ShenZhen",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "a98b87c6-09eb-4265-92f3-f7b1bc700f44",
     "On Chain Address": "f1ppsb4ztmossudm66fr7u3svlxn3reqboedrfisy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
